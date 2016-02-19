@@ -1,4 +1,4 @@
-package com.chirag.algorithm.sort;
+package com.chirag.test.sort;
 
 public class QuickSort
 {

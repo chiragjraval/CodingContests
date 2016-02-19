@@ -1,4 +1,4 @@
-package com.chirag.test;
+package com.chirag.test.practice;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

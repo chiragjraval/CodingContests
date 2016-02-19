@@ -1,4 +1,4 @@
-package com.chirag.test;
+package com.chirag.test.practice;
 
 import java.util.Vector;
 import java.util.concurrent.CountDownLatch;

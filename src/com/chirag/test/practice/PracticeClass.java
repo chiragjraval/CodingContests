@@ -1,4 +1,4 @@
-package com.chirag.test;
+package com.chirag.test.practice;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,5 +1,5 @@
 /* IMPORTANT: Multiple classes and nested static classes are supported */
-package com.chirag.test;
+package com.chirag.test.practice;
 
 
 import java.util.HashMap;
