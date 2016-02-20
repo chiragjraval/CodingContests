@@ -10,12 +10,12 @@ public class MinJumpsToEndProblem {
 		
 		jumps[0] = 0;
 		for(int i=1; i<arr.length; i++)
-			jumps[i] = -1;
+			jumps[i] = Integer.MAX_VALUE;
 		
 		
 		for(int i=0; i<arr.length; i++)
 		{
-			if(arr[i]==-1)
+			if(arr[i]==Integer.MAX_VALUE)
 				break;
 			
 			int startPoint = i + 1;
@@ -23,11 +23,11 @@ public class MinJumpsToEndProblem {
 			
 			for(int j=startPoint; j<arr.length && j<=endPoint; j++)
 			{
-				if(jumps[j]==-1 || jumps[j] > jumps[i]+1)
+				if(jumps[j] > jumps[i]+1)
 					jumps[j] = jumps[i]+1;
 			}
 			
-			if(jumps[arr.length-1]>-1)
+			if(jumps[arr.length-1]<Integer.MAX_VALUE)
 				break;
 		}
 		
