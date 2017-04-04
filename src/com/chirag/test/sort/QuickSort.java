@@ -15,9 +15,11 @@ public class QuickSort
 				swap(arr, i, j);
 				i++; j--;
 			}
-			
-			if(arr[i]<key) i++;
-			if(arr[j]>key) j--;
+			else
+			{
+				if(arr[i]<key) i++;
+				if(arr[j]>key) j--;
+			}
 		}
 		
 		swap(arr, start, --i);
